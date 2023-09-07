@@ -154,6 +154,7 @@ export var Wheel = function (_a) {
                 mustStopSpinning.current = false;
                 setHasStartedSpinning(false);
                 setHasStoppedSpinning(true);
+                alert('123');
                 onStopSpinning();
             }
         }, totalSpinningTime);
